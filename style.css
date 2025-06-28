@@ -1,0 +1,54 @@
+#main{
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    padding: 1vw 25vh;
+    display: block;
+    /* background-color: #743535; */
+}
+.container #searchInput {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+    border: 2px solid rgb(91, 96, 100);
+    outline-color: rgb(64, 149, 234);
+}
+
+.people {
+    /* position: absolute; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* margin-top: 20px; */
+}
+.person {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(91, 96, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* outline-color: rgb(21, 2, 2);     */
+}
+.person .img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(210, 47, 47);
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
